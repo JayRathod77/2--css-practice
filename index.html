@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main class="w-full min-h-screen">
+        <header class="w-full h-20 bg-zinc-800">
+          <div class="w-full h-20 flex justify-center items-center">
+            <h1 class="text-white font-bold text-3xl">Delicious Coffee</h1>
+          </div>
+        </header>
+      
+        <nav>
+          <ul class="flex justify-center w-full bg-zinc-200 font-bold h-12 text-black">
+            <li class="px-8 py-2 hover:text-zinc-600 cursor-pointer">Home</li>
+            <li class="px-8 py-2 hover:text-zinc-600 cursor-pointer">About</li>
+            <li class="px-8 py-2 hover:text-zinc-600 cursor-pointer">Menu</li>
+            <li class="px-8 py-2 hover:text-zinc-600 cursor-pointer">Contact</li>
+          </ul>
+        </nav>
+      
+        <hr class="w-full h-[1px] bg-zinc-300" />
+      
+        <section class="w-full flex flex-col md:flex-row">
+          <aside class="w-full md:w-52 bg-zinc-200 p-4">
+            <h1 class="text-2xl text-center font-bold">Explore More</h1>
+            <ul class="flex flex-col justify-center ">
+              <li class="p-3 font-semibold hover:font-bold cursor-pointer">Our Story</li>
+              <li class="p-3 font-semibold hover:font-bold cursor-pointer">Coffee Beans</li>
+              <li class="p-3 font-semibold hover:font-bold cursor-pointer">Brewing Guides</li>
+              <li class="p-3 font-semibold hover:font-bold cursor-pointer">Visit Us</li>
+            </ul>
+          </aside>
+      
+          <div class="w-full min-h-screen p-8">
+            <div class="w-full">
+              <h1 class="text-3xl font-bold text-black">
+                Welcome to our Delicious Coffee!
+              </h1>
+            </div>
+      
+            <div class="w-full h-auto flex flex-wrap gap-5 justify-center items-center mt-6">
+              <div class="w-[80%] sm:w-[40%] md:w-[25%] bg-red-200">
+                <img
+                  class="w-full h-auto object-cover"
+                  src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlfGVufDB8fDB8fHww"
+                  alt="Cup of Coffee"
+                />
+              </div>
+              <div class="w-[80%] sm:w-[40%] md:w-[25%] bg-red-200">
+                <img
+                  class="w-full h-auto object-cover"
+                  src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D"
+                  alt="Latte Art"
+                />
+              </div>
+              <div class="w-[80%] sm:w-[40%] md:w-[25%] bg-red-200">
+                <img
+                  class="w-full h-auto object-cover"
+                  src="https://plus.unsplash.com/premium_photo-1673545518947-ddf3240090b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D"
+                  alt="Coffee Beans"
+                />
+              </div>
+            </div>
+      
+            <p class="mt-10 font-semibold">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit numquam labore sunt,
+              corrupti quae, rerum aperiam accusamus doloribus nisi explicabo maxime libero.
+              Eligendi repellendus possimus commodi voluptate quisquam. Facilis, culpa.
+            </p>
+      
+            <h3 class="font-bold my-3 text-xl">Our featured coffee</h3>
+            <ul class="ml-5 list-disc">
+              <li><span class="font-semibold">Ethiopian Yirgacheffe</span>: Bright and floral with citrus notes.</li>
+              <li><span class="font-semibold">Sumatra Mandheling</span>: Full-bodied with earthy and herbal notes.</li>
+              <li><span class="font-semibold">Kenya AA</span>: Bright and fruity with a wine-like acidity.</li>
+              <li><span class="font-semibold">Colombia</span> Sweet and fruity with a hint of citrus.</li>
+            </ul>
+            <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa ex minus sequi, possimus fuga minima?</p>
+            <h3>Thank you for choosing Delicious coffee</h3>
+          </div>
+        </section>
+
+        <footer class="w-full h-20 bg-zinc-800">
+          <div class="w-full h-20 flex justify-center items-center">
+            <p class="text-white font-bold text-sm">�� 2023 Delicious Coffee. All rights reserved.</p>
+          </div>
+        </footer>
+      </main>
+      
+  </body>
+</html>
